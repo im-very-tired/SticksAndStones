@@ -52,6 +52,7 @@ public class SticksAndStones {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(Moditems.BRONZEINGOT);
+            event.accept(Moditems.BLACKBRONZEINGOT);
             event.accept(Moditems.TININGOT);
         }
     }

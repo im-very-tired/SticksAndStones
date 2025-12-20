@@ -12,6 +12,9 @@ public class Moditems {
     public static final DeferredItem<Item> BRONZEINGOT = ITEMS.register("bronzeingot",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> BLACKBRONZEINGOT = ITEMS.register("blackbronzeingot",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> TININGOT = ITEMS.register("tiningot",
             () -> new Item(new Item.Properties()));
 
