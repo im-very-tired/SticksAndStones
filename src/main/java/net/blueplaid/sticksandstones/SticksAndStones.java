@@ -16,7 +16,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
+// The value here should match an entry in the META-INF/neoforge.neoforge.mods.toml file
 @Mod(SticksAndStones.MOD_ID)
 public class SticksAndStones {
     // Define mod id in a common place for everything to reference
