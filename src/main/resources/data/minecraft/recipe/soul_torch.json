@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " X ",
+    " # ",
+    " S "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    "X": {
+      "item": "sticksandstonescrafting:firestarter"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:soul_torch"
+  }
+}
