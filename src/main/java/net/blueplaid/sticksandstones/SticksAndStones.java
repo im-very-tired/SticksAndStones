@@ -1,5 +1,6 @@
 package net.blueplaid.sticksandstones;
 
+import net.blueplaid.sticksandstones.item.ModCreativeModeTabs;
 import net.blueplaid.sticksandstones.item.Moditems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -29,6 +30,8 @@ public class SticksAndStones {
     public SticksAndStones(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
 
