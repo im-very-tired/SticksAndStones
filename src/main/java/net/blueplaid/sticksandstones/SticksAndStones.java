@@ -53,15 +53,7 @@ public class SticksAndStones {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(Moditems.BRONZEINGOT);
-            event.accept(Moditems.BLACKBRONZEINGOT);
-            event.accept(Moditems.TININGOT);
-            event.accept(Moditems.SILVERINGOT);
-        }
-        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
-            event.accept(Moditems.FIRESTARTER);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
