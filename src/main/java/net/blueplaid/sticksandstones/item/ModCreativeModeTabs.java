@@ -21,6 +21,13 @@ public class ModCreativeModeTabs {
 
                         output.accept(Moditems.FIRESTARTER);
 
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> STICK_AND_STONES_METAL = CREATIVE_MODE_TAB.register("sticks_and_stones_metal",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.BRONZEINGOT.get()))
+                    .title(Component.translatable("creativetab.sticksandstonescrafting.metal"))
+                    .displayItems((itemDisplayParameters, output) -> {
+
                         output.accept(Moditems.BRONZEINGOT);
                         output.accept(Moditems.BLACKBRONZEINGOT);
                         output.accept(Moditems.TININGOT);
