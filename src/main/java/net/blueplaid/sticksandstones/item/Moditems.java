@@ -18,6 +18,12 @@ public class Moditems {
     public static final DeferredItem<Item> TININGOT = ITEMS.register("tiningot",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> SILVERINGOT = ITEMS.register("silveringot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> FIRESTARTER = ITEMS.register("firestarter",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

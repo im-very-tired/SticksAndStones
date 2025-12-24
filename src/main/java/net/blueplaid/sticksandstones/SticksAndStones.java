@@ -54,6 +54,10 @@ public class SticksAndStones {
             event.accept(Moditems.BRONZEINGOT);
             event.accept(Moditems.BLACKBRONZEINGOT);
             event.accept(Moditems.TININGOT);
+            event.accept(Moditems.SILVERINGOT);
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
+            event.accept(Moditems.FIRESTARTER);
         }
     }
 
