@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X# ",
+    "#X ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:clay_ball"
+    },
+    "X": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "count": 2,
+    "id": "minecraft:packed_mud"
+  }
+}
