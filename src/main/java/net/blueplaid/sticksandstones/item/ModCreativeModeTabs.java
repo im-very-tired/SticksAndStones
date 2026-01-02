@@ -1,6 +1,7 @@
 package net.blueplaid.sticksandstones.item;
 
 import net.blueplaid.sticksandstones.SticksAndStones;
+import net.blueplaid.sticksandstones.block.Modblocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,14 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(Moditems.FIRESTARTER);
+
+                    }).build());
+    public static final Supplier<CreativeModeTab> STICK_AND_STONES_BLOCKS = CREATIVE_MODE_TAB.register("sticks_and_stones_blocks",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Modblocks.WATTLE_AND_DAUB.get()))
+                    .title(Component.translatable("creativetab.sticksandstonescrafting.blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+
+                        output.accept(Modblocks.WATTLE_AND_DAUB);
 
                     }).build());
 

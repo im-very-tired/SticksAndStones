@@ -1,6 +1,9 @@
 {
-  "creativetab.sticksandstonescrafting.items": "Sticks And Stones Items",
-  "creativetab.sticksandstonescrafting.metal": "Sticks And Stones Metals",
+  "creativetab.sticksandstonescrafting.items": "Sticks and Stones Items",
+  "creativetab.sticksandstonescrafting.metal": "Sticks and Stones Metals",
+  "creativetab.sticksandstonescrafting.blocks": "Sticks and Stones Blocks",
+
+  "block.sticksandstonescrafting.daubedwattle": "Wattle and Daub",
 
   "item.sticksandstonescrafting.bronzeingot": "Tin Bronze Ingot",
   "item.sticksandstonescrafting.blackbronzeingot": "Black Bronze Ingot",

@@ -1,5 +1,6 @@
 package net.blueplaid.sticksandstones;
 
+import net.blueplaid.sticksandstones.block.Modblocks;
 import net.blueplaid.sticksandstones.item.ModCreativeModeTabs;
 import net.blueplaid.sticksandstones.item.Moditems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,8 +33,8 @@ public class SticksAndStones {
         modEventBus.addListener(this::commonSetup);
 
         ModCreativeModeTabs.register(modEventBus);
-
         Moditems.register(modEventBus);
+        Modblocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
