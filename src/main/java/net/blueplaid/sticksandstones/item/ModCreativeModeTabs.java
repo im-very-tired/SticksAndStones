@@ -29,6 +29,22 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(Modblocks.WATTLE_AND_DAUB);
+                        output.accept(Modblocks.WHITE_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.LIGHT_GRAY_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.GRAY_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.BLACK_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.BROWN_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.RED_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.ORANGE_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.YELLOW_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.LIME_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.GREEN_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.CYAN_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.LIGHT_BLUE_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.BLUE_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.PURPLE_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.MAGENTA_WATTLE_AND_DAUB);
+                        output.accept(Modblocks.PINK_WATTLE_AND_DAUB);
 
                     }).build());
 
