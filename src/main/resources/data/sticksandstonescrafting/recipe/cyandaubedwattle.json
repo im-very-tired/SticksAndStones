@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    ""
+  ],
+  "key": {},
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "sticksandstonescrafting:wattle_and_daub"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result": {
+    "id": "sticksandstonescrafting:cyandaubedwattle",
+    "count": 1
+  }
+}

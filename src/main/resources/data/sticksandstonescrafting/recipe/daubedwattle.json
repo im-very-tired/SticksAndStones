@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "SXS",
+    "SLS"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:packed_mud"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "sticksandstonescrafting:daubedwattle"
+  }
+}
