@@ -15,7 +15,13 @@ public class Moditems {
     public static final DeferredItem<Item> WETMUDBRICK = ITEMS.register("wet_mud_brick",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> WET_BRICK_INGOT_MOLD = ITEMS.register("wet_brick_ingot_mold",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> MUDBRICK = ITEMS.register("mud_brick",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> BRICK_INGOT_MOLD = ITEMS.register("brick_ingot_mold",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> COPPER_MECHANISM = ITEMS.register("copper_mechanism",

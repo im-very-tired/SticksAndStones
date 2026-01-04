@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sticksandstonescrafting:wet_mud_brick"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sticksandstonescrafting:wet_brick_ingot_mold"
+  }
+}

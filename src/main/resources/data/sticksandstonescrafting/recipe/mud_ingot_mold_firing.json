@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 900,
+  "experience": 0.45,
+  "ingredient": {
+    "item": "sticksandstonescrafting:wet_brick_ingot_mold"
+  },
+  "result": {
+    "id": "sticksandstonescrafting:brick_ingot_mold"
+  }
+}

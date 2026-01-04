@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sticksandstonescrafting:item/brick_ingot_mold"
+  }
+}
