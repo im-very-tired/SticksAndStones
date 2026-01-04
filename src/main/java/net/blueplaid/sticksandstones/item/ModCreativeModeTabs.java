@@ -54,7 +54,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(Moditems.BRONZEINGOT);
+                        output.accept(Modblocks.BRONZE_BLOCK);
                         output.accept(Moditems.BLACKBRONZEINGOT);
+                        output.accept(Modblocks.BLACKBRONZE_BLOCK);
                         output.accept(Moditems.TININGOT);
                         output.accept(Moditems.SILVERINGOT);
 

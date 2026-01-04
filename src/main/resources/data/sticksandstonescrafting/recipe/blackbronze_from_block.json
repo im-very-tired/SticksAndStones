@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sticksandstonescrafting:blackbronze_block"
+    }
+  ],
+  "result": {
+    "id": "sticksandstonescrafting:blackbronzeingot",
+    "count": 9
+  }
+}
