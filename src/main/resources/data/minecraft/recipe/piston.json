@@ -2,23 +2,26 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    " # ",
-    " M ",
-    " X "
+    "PPP",
+    "#M#",
+    "#X#"
   ],
   "key": {
     "#": {
-      "item": "minecraft:amethyst_shard"
+      "item": "minecraft:cobblestone"
     },
     "X": {
-      "tag": "c:bronze"
+      "item": "minecraft:redstone"
     },
     "M": {
       "tag": "sticksandstonescrafting:bronze_mechanisms"
+    },
+    "P": {
+      "tag": "minecraft:planks"
     }
   },
   "result": {
     "count": 1,
-    "id": "minecraft:spyglass"
+    "id": "minecraft:piston"
   }
 }
