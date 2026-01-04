@@ -53,9 +53,12 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.sticksandstonescrafting.metal"))
                     .displayItems((itemDisplayParameters, output) -> {
 
+                        output.accept(Moditems.COPPER_MECHANISM);
                         output.accept(Moditems.BRONZEINGOT);
+                        output.accept(Moditems.BRONZE_MECHANISM);
                         output.accept(Modblocks.BRONZE_BLOCK);
                         output.accept(Moditems.BLACKBRONZEINGOT);
+                        output.accept(Moditems.BLACKBRONZE_MECHANISM);
                         output.accept(Modblocks.BLACKBRONZE_BLOCK);
                         output.accept(Moditems.TININGOT);
                         output.accept(Moditems.SILVERINGOT);
