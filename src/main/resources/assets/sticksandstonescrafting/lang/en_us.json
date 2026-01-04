@@ -21,6 +21,20 @@
   "block.sticksandstonescrafting.reddaubedwattle": "Red Wattle and Daub",
   "block.sticksandstonescrafting.blackdaubedwattle": "Black Wattle and Daub",
 
+  "block.minecraft.copper_ore": "Native Copper Ore",
+  "block.minecraft.deepslate_copper_ore": "Deepslate Native Copper Ore",
+  "block.minecraft.raw_copper_block": "Block of Native Copper",
+  "block.minecraft.gold_ore": "Native Gold Ore",
+  "block.minecraft.deepslate_gold_ore": "Deepslate Native Gold Ore",
+  "block.minecraft.raw_gold_block": "Block of Native Gold",
+  "block.minecraft.iron": "Magnetite Ore",
+  "block.minecraft.deepslate_gold_ore": "Deepslate Magnetite Ore",
+  "block.minecraft.raw_gold_block": "Block of Magnetite",
+
+  "item.minecraft.raw_copper": "Native Copper",
+  "item.minecraft.raw_gold": "Native Gold",
+  "item.minecraft.raw_iron": "Magnetite",
+
   "block.sticksandstonescrafting.bronze_block": "Block of Tin Bronze",
   "block.sticksandstonescrafting.blackbronze_block": "Block of Black Bronze",
 

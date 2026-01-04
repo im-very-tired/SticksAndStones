@@ -87,11 +87,11 @@ public class Modblocks {
 
     public static final DeferredBlock<Block> BRONZE_BLOCK = registerBlock("bronze_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.COPPER)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER)));
 
     public static final DeferredBlock<Block> BLACKBRONZE_BLOCK = registerBlock("blackbronze_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.COPPER)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
