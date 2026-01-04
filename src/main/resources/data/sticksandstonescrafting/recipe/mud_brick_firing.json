@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "sticksandstonescrafting:wet_mud_brick"
+  },
+  "result": {
+    "id": "sticksandstonescrafting:mud_brick"
+  }
+}

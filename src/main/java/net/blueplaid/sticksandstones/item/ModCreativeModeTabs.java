@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(Moditems.FIRESTARTER);
+                        output.accept(Moditems.WETMUDBRICK);
+                        output.accept(Moditems.MUDBRICK);
 
                     }).build());
     public static final Supplier<CreativeModeTab> STICK_AND_STONES_BLOCKS = CREATIVE_MODE_TAB.register("sticks_and_stones_blocks",

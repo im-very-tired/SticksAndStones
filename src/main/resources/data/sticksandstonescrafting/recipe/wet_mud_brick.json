@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SX ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:clay_ball"
+    },
+    "X": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "sticksandstonescrafting:wet_mud_brick"
+  }
+}

@@ -38,12 +38,14 @@
   "block.sticksandstonescrafting.bronze_block": "Block of Tin Bronze",
   "block.sticksandstonescrafting.blackbronze_block": "Block of Black Bronze",
 
+  "item.sticksandstonescrafting.firestarter": "Firestarter",
+  "item.sticksandstonescrafting.wet_mud_brick": "Wet Mud Brick",
+  "item.sticksandstonescrafting.mud_brick": "Mud Brick",
   "item.sticksandstonescrafting.copper_mechanism": "Copper Mechanism",
   "item.sticksandstonescrafting.bronzeingot": "Tin Bronze Ingot",
   "item.sticksandstonescrafting.bronze_mechanism": "Tin Bronze Mechanism",
   "item.sticksandstonescrafting.blackbronzeingot": "Black Bronze Ingot",
   "item.sticksandstonescrafting.blackbronze_mechanism": "Black Bronze Mechanism",
   "item.sticksandstonescrafting.tiningot": "Tin Ingot",
-  "item.sticksandstonescrafting.silveringot": "Silver Ingot",
-  "item.sticksandstonescrafting.firestarter": "Firestarter"
+  "item.sticksandstonescrafting.silveringot": "Silver Ingot"
 }
