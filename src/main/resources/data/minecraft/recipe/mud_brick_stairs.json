@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "sticksandstonescrafting:mud_brick"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:mud_brick_stairs"
+  }
+}
