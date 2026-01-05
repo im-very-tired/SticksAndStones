@@ -1,6 +1,7 @@
 package net.blueplaid.sticksandstones.item;
 
 import net.blueplaid.sticksandstones.SticksAndStones;
+import net.blueplaid.sticksandstones.item.custom.EmptyCrucibleItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -18,11 +19,17 @@ public class Moditems {
     public static final DeferredItem<Item> WET_BRICK_INGOT_MOLD = ITEMS.register("wet_brick_ingot_mold",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> UNFIRED_CRUCIBLE = ITEMS.register("unfired_crucible",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> MUDBRICK = ITEMS.register("mud_brick",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> BRICK_INGOT_MOLD = ITEMS.register("brick_ingot_mold",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> CERAMIC_CRUCIBLE = ITEMS.register("ceramic_crucible",
+            () -> new EmptyCrucibleItem());
 
     public static final DeferredItem<Item> COPPER_MECHANISM = ITEMS.register("copper_mechanism",
             () -> new Item(new Item.Properties()));

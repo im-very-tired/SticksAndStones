@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 1200,
+  "experience": 0.50,
+  "ingredient": {
+    "item": "sticksandstonescrafting:unfired_crucible"
+  },
+  "result": {
+    "id": "sticksandstonescrafting:ceramic_crucible"
+  }
+}

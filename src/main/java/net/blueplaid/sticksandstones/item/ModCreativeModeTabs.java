@@ -23,8 +23,10 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.FIRESTARTER);
                         output.accept(Moditems.WETMUDBRICK);
                         output.accept(Moditems.WET_BRICK_INGOT_MOLD);
+                        output.accept(Moditems.UNFIRED_CRUCIBLE);
                         output.accept(Moditems.MUDBRICK);
                         output.accept(Moditems.BRICK_INGOT_MOLD);
+                        output.accept(Moditems.CERAMIC_CRUCIBLE);
 
                     }).build());
     public static final Supplier<CreativeModeTab> STICK_AND_STONES_BLOCKS = CREATIVE_MODE_TAB.register("sticks_and_stones_blocks",

@@ -2,6 +2,23 @@
   "replace": false,
   "values": [
     "sticksandstonescrafting:bronze_block",
-    "sticksandstonescrafting:blackbronze_block"
+    "sticksandstonescrafting:blackbronze_block",
+    "sticksandstonescrafting:daubedwattle",
+    "sticksandstonescrafting:whitedaubedwattle",
+    "sticksandstonescrafting:orangedaubedwattle",
+    "sticksandstonescrafting:magentadaubedwattle",
+    "sticksandstonescrafting:lightbluedaubedwattle",
+    "sticksandstonescrafting:yellowdaubedwattle",
+    "sticksandstonescrafting:limedaubedwattle",
+    "sticksandstonescrafting:pinkdaubedwattle",
+    "sticksandstonescrafting:graydaubedwattle",
+    "sticksandstonescrafting:lightgraydaubedwattle",
+    "sticksandstonescrafting:cyandaubedwattle",
+    "sticksandstonescrafting:purpledaubedwattle",
+    "sticksandstonescrafting:bluedaubedwattle",
+    "sticksandstonescrafting:browndaubedwattle",
+    "sticksandstonescrafting:greendaubedwattle",
+    "sticksandstonescrafting:reddaubedwattle",
+    "sticksandstonescrafting:blackdaubedwattle"
   ]
 }
