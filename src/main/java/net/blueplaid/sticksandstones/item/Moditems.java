@@ -29,7 +29,7 @@ public class Moditems {
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> CERAMIC_CRUCIBLE = ITEMS.register("ceramic_crucible",
-            () -> new EmptyCrucibleItem());
+            () -> new EmptyCrucibleItem(new Item.Properties()));
 
     public static final DeferredItem<Item> COPPER_MECHANISM = ITEMS.register("copper_mechanism",
             () -> new Item(new Item.Properties()));
